@@ -8,6 +8,9 @@ class SplineTuple:
         self.d = d
         self.x = x
 
+    def print(self):
+        print("a={} , b={} , c={} , d={} , x={}".format(self.a,self.b,self.c,self.d,self.x))
+
 
 # Построение сплайна
 # x - узлы сетки, должны быть упорядочены по возрастанию, кратные узлы запрещены

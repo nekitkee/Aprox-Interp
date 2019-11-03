@@ -42,3 +42,10 @@ plt.plot(new_x, aprox)
 plt.show()
 
 
+print("POLYNOM COEF:")
+print(polyval)
+print("SPLINES:")
+for spl in spline:
+    spl.print()
+
+
